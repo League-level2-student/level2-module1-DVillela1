@@ -19,7 +19,9 @@ public class IntroToArrayLists {
 			System.out.println(b);
 		}
 		//4. Print all the Strings using a for-each loop
-		
+		for (String x : o) {
+			System.out.println(x);
+		}
 		//5. Print only the even numbered elements in the list.
 		int even = o.size()/2;
 		for (int a = 0; a < even; a++) {
